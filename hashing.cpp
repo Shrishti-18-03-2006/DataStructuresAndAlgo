@@ -1,6 +1,6 @@
 #include<bits/stdc++.h>
 using namespace std;
-/*
+
 int main(){
     int n;
     cout << "ENter the size of the array : ";
@@ -215,7 +215,7 @@ int main(){
 
     return 0;
 }
-*/
+
 
 
    

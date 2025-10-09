@@ -1,6 +1,6 @@
 #include <bits/stdc++.h>
 using namespace std;
-/*
+
     //Linear Search
 
     bool search(int arr[] , int size , int find){
@@ -43,7 +43,7 @@ using namespace std;
 
 
 
-/*
+
     //Reverse an array
 
     void reverse(int arr[], int size){
@@ -92,7 +92,7 @@ using namespace std;
 
         return 0;
     }
-*/
+
 
 
 //SWAP ALTERNATE

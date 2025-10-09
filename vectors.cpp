@@ -1,8 +1,8 @@
 #include<bits/stdc++.h>
 using namespace std;
-
+/*
 void explainVector(){
-/*    // Vector is a container which is dynamic in nature - we can always increase the size when we need to
+    // Vector is a container which is dynamic in nature - we can always increase the size when we need to
     // DECLARING A VETOR
     vector<int> s;
     s.push_back(1);  // {_} = {1} empty container gets 1
@@ -34,7 +34,7 @@ void explainVector(){
     cout << *(it) << endl;
 
     vector<int>::iterator xyz = s.end(); // end will point to somewhere right after after the end element
-  /*  vector<int>::iterator xyz = s.rend(); 
+    vector<int>::iterator xyz = s.rend(); 
     vector<int>::iterator xyz = s.rbegin(); 
 
     cout << s.back() << endl;
@@ -73,16 +73,11 @@ void explainVector(){
 
 
 //   s.erase(s.begin()+1); // removes 2nd element 
-   
 
     s.erase(s.begin() , s.begin()+3); // works just like python, (start, end{excluding the last one})
     for(auto pqr : s){
         cout << pqr << " ";
     }
-
-
-
-*/
 
     //INSERT Function
     vector<int>v(2,100);
@@ -104,8 +99,8 @@ void explainVector(){
 
 }
 
-
+*/
 int main(){
     //explainPair();
-    explainVector();
+   // explainVector();
 }
