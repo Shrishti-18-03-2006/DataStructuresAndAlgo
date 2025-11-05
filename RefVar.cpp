@@ -7,7 +7,7 @@ void update(int n){// pass by value
 void update2(int &n){// pass by reference 
     n++;
 }
-/*
+
 int& func(int a){ // It is a bad practice 
     int num = a;
     int& ans = num;
@@ -18,6 +18,7 @@ int* fun(int n){// this is also a bad practice
     int *ptr = &n;
     return ptr;
 }
+/*
 int main(){
     int num = 5;
     cout << "Before " << num << endl;
@@ -48,11 +49,11 @@ int main(){
     new int;
     int *ptr = new int;
 
-//    new int[5];
-  //  int *arr = new int[5]; // Creating array in heap memory 
-    // left side = 8 bytes --> static allocation
-    // right side = 5 X 4 bytes = 20 bytes --> dynamic allocation
-    // Total memory = 28 bytes 
+    new int[5];
+    int *arr = new int[5]; // Creating array in heap memory 
+   // left side = 8 bytes --> static allocation
+   // right side = 5 X 4 bytes = 20 bytes --> dynamic allocation
+    //Total memory = 28 bytes 
 
 
     // For variable size array;
@@ -70,9 +71,9 @@ int main(){
     // To release the memory use : 
     delete[] arr;
     arr = nullptr;
-    */
-int main(){
- /*   // FOR 2D array dynamic memory allocation 
+
+
+    // FOR 2D array dynamic memory allocation 
     int n;
     cout << "Enter array size : ";
     cin >> n;
@@ -98,7 +99,7 @@ int main(){
         }
         cout << endl;
     }
-*/
+
     // diff row and cols :
     int row;
     int col;
@@ -138,3 +139,4 @@ int main(){
 
     return 0;
 }
+*/
