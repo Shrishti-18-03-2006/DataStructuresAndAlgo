@@ -9,9 +9,9 @@ class Titan{
         cout << "Constructor called!\n";
     }
 
-    // PARAMETERIZED CONSTRUCTOR (START HERE AGAIN)
+    // PARAMETERIZED CONSTRUCTOR
     Titan(int Height){
-        Height = Height;
+        this->Height = Height; // The address of the current object is stored in "this". "this" is a pointer.
     }
     int getAge(){
         return Age;
@@ -53,6 +53,7 @@ int main(){
     cout << "HELLO!\n";
 
     Titan *ColossalOfArmin = new Titan;
+
 
 
 
