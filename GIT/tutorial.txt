@@ -1,0 +1,11 @@
+This is for pushing basic repos commands in terminal
+
+1. cd <FOLDER_NAME>
+2. git status
+3. git add . or git add <FOLDER_NAME> 
+4. git commit -m"Give a commit message"
+5. git log 
+6. to exit log -> press (~wq)
+7. git remote set-url <copy paste the SSH url from the git hub website when created the new repo>
+8. git push origin main
+ALL DONE
