@@ -23,9 +23,43 @@ class Person{
         }
 };
 
+class professor{
+    public:
+        int id;
+        void setId(int i){
+            id = i;
+        }
+        void getprof(){
+            cout << "Id of Professor is : " << id << endl;
+        }
+};
+
+class retard : public Person, public professor{
+    public: 
+
+        void getretardname(){
+            cout << "\n\nDetails of the retarded professor is : " << endl;
+            cout << "\tName : " << name << "  \tAge : " << age << "  \tID  : " << id << endl;
+        }
+
+};
+
 
 int main(){
-    
+
+ 
+    retard R1;
+    R1.name = "Sadanand";
+    R1.age = 90;
+    R1.id = 3333;
+
+    R1.getretardname();
+
+    retard R2;
+    R2.name = "Magar Vikas";
+    R2.age = 10000;
+    R2.id = 73473;
+    R2.getretardname();
 
     return 0;
 }

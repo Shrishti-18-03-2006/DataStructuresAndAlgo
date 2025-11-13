@@ -1,13 +1,6 @@
 #include<bits/stdc++.h>
 using namespace std;
 
-/*
-A Parent class 
-A Child class
-the Child class DERIVED from the parent class
-All the members as well as methods get derived 
-
-*/
 class Person{
     // pvt data memeber of any class cannot be inherited from parent class. NON ACCESSIBLE IN ANY CASE
     // in case of protected, you can inherit using getter setters 
@@ -40,25 +33,19 @@ class student : public Person{
         }
 };
 
+class failed : public student{
+
+    public: 
+
+    void giveAge(){
+        cout << "Age of failed student is : " << age << endl;
+
+    }
+};
+
 int main(){
-    student s1;
-    s1.setInfo("Shrishti",19);
-    cout << "Go inside Parent class:\n";
-    s1.getInfo() ; 
-    
-    s1.setroll(40);
-    cout << "Go inside Child class:\n";
-    s1.getInfo2();
+    failed f;
+    f.giveAge();
 
     return 0;
 }
-
-/*
-TYPES :
-    Single
-    Multi Level
-    Multiple
-    Hybrid
-    Heirearchal
-
-*/
