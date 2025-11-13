@@ -2,8 +2,8 @@
 using namespace std;
 
 /*
-INPLEMENTATION HIDING : SLow only essential things as required.
 
+INPLEMENTATION HIDING : SLow only essential things as required.
 can be done using Access specifiers 
 
 */
@@ -36,5 +36,3 @@ int main()
     return 0;
 }
 
-
-// Encapsulation And Abstraction
